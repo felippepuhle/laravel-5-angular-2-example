@@ -1,5 +1,6 @@
 {
   "private": true,
+  "node": "0.12.x",
   "devDependencies": {
     "@types/es6-shim": "0.0.29",
     "@types/node": "^6.0.33",
@@ -37,7 +38,6 @@
     "zone.js": "^0.6.12"
   },
   "scripts": {
-    "start": "node app",
-    "postinstall": "gulp default"
+    "postinstall": "gulp"
   }
 }
