@@ -1,16 +1,8 @@
 {
   "_args": [
     [
-      {
-        "raw": "bootstrap-less@^3.3.8",
-        "scope": null,
-        "escapedName": "bootstrap-less",
-        "name": "bootstrap-less",
-        "rawSpec": "^3.3.8",
-        "spec": ">=3.3.8 <4.0.0",
-        "type": "range"
-      },
-      "/Users/sanex/PhpstormProjects/laravel-5-angular-2-example"
+      "bootstrap-less@^3.3.8",
+      "/home/felippe/Projetos/laravel-5-angular-2-example"
     ]
   ],
   "_from": "bootstrap-less@>=3.3.8 <4.0.0",
@@ -20,17 +12,16 @@
   "_location": "/bootstrap-less",
   "_nodeVersion": "0.12.2",
   "_npmUser": {
-    "name": "aaike",
-    "email": "aaikevr@gmail.com"
+    "email": "aaikevr@gmail.com",
+    "name": "aaike"
   },
   "_npmVersion": "2.7.4",
   "_phantomChildren": {},
   "_requested": {
-    "raw": "bootstrap-less@^3.3.8",
-    "scope": null,
-    "escapedName": "bootstrap-less",
     "name": "bootstrap-less",
+    "raw": "bootstrap-less@^3.3.8",
     "rawSpec": "^3.3.8",
+    "scope": null,
     "spec": ">=3.3.8 <4.0.0",
     "type": "range"
   },
@@ -41,7 +32,7 @@
   "_shasum": "71f29dd5a7fffedfe89f1605bbadfe0a338dae53",
   "_shrinkwrap": null,
   "_spec": "bootstrap-less@^3.3.8",
-  "_where": "/Users/sanex/PhpstormProjects/laravel-5-angular-2-example",
+  "_where": "/home/felippe/Projetos/laravel-5-angular-2-example",
   "bugs": {
     "url": "https://github.com/distros/bootstrap-less/issues"
   },
@@ -81,16 +72,16 @@
   },
   "scripts": {},
   "shim": {
-    "js/bootstrap": [
-      "jquery"
-    ],
-    "js/bootstrap.min": [
-      "jquery"
-    ],
     "js/affix": [
       "jquery"
     ],
     "js/alert": [
+      "jquery"
+    ],
+    "js/bootstrap": [
+      "jquery"
+    ],
+    "js/bootstrap.min": [
       "jquery"
     ],
     "js/button": [
