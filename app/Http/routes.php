@@ -11,13 +11,20 @@
 |
 */
 
-Route::get('/{any?}', [
-    'uses' => 'ExampleControllers\AngularRoutesController@index',
-    'as' => 'home'
-]);
+if(Crawler::isCrawler()) {
+    Route::get('/{any?}', [
+        'uses' => 'SEO\IndexController@index',
+        'as' => 'home'
+    ]);
+} else {
+    Route::get('/{any?}', [
+        'uses' => 'ExampleControllers\AngularRoutesController@index',
+        'as' => 'home'
+    ]);
 
-// API route
-Route::post('/api/upload-file', 'ExampleControllers\UploadController@uploadFile');
+    // API route
+    Route::post('/api/upload-file', 'ExampleControllers\UploadController@uploadFile');
+}
 
 /*
 |--------------------------------------------------------------------------
